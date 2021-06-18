@@ -2,12 +2,13 @@
   "name": "appdev",
   "version": "1.0.0",
   "dependencies": {
-    "@redocly/openapi-cli": "^1.0.0-beta.50"
+    "@redocly/openapi-cli": "^1.0.0-beta.50",
+    "redoc-cli": "^0.12.1"
   },
   "private": true,
   "scripts": {
     "start": "openapi preview-docs",
-    "build": "openapi bundle -o dist",
+    "build": "openapi bundle -o dist && redoc-cli bundle dist.yaml && cp redoc-static.html docs/index.html",
     "test": "openapi lint"
   }
 }
