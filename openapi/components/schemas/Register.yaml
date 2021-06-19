@@ -1,0 +1,14 @@
+type: object
+properties:
+  username:
+    description: Api access token
+    type: string
+    example: tokenstring
+  password:
+    description: Api access token
+    type: string
+    example: tokenstring
+  mail:
+    description: Api access token
+    type: string
+    example: tokenstring

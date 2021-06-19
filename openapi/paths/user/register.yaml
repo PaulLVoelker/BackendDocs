@@ -1,0 +1,30 @@
+post:
+  tags:
+    - User
+  summary: Register
+  description: |
+    Some description of the operation.
+    You can use `markdown` here.
+  operationId: register
+  security:
+    - api_key: []
+
+  requestBody:
+    description: Optional description in *Markdown*
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: ../../components/schemas/Register.yaml
+        example:
+          username: nils
+          password: pass
+          mail: nils@example.com
+
+  responses:
+    '200':
+      description: Success
+    '403':
+      description: Forbidden
+    '404':
+      description: User not found

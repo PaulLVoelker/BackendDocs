@@ -65,6 +65,8 @@ paths:
     $ref: 'paths/user.yaml'
   '/user/login':
       $ref: 'paths/user/login.yaml'
+  '/user/register':
+      $ref: 'paths/user/register.yaml'
 components:
   securitySchemes:
     api_key:
