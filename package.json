@@ -7,8 +7,8 @@
   },
   "private": true,
   "scripts": {
-    "start": "openapi preview-docs",
-    "build": "openapi bundle -o dist && redoc-cli bundle dist.yaml && cp redoc-static.html index.html",
+    "start": "cp docs/dev.html docs/index.html && openapi preview-docs",
+    "build": "openapi bundle -o dist && redoc-cli bundle dist.yaml && cp redoc-static.html docs/index.html",
     "test": "openapi lint"
   }
 }
