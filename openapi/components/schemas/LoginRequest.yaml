@@ -1,0 +1,13 @@
+type: object
+properties:
+  username:
+    description: User supplied username
+    type: string
+    minLength: 4
+    example: John78
+  password:
+    description: password
+    type: string
+    example: securepass
+    minLength: 4
+    required: true

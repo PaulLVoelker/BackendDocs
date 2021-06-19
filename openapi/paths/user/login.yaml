@@ -1,0 +1,35 @@
+post:
+  tags:
+    - User
+  summary: Login
+  description: |
+    Some description of the operation.
+    You can use `markdown` here.
+  operationId: login
+  security:
+    - api_key: []
+
+  requestBody:
+    description: Optional description in *Markdown*
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: ../../components/schemas/LoginRequest.yaml
+        example:
+          username: nils
+          password: pass
+
+  responses:
+    '200':
+      description: Success
+      content:
+        application/json:
+          schema:
+            $ref: ../../components/schemas/Login.yaml
+          example:
+            token: user1
+    '403':
+      description: Forbidden
+    '404':
+      description: User not found

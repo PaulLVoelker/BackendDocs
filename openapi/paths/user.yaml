@@ -1,0 +1,24 @@
+get:
+  tags:
+    - User
+  summary: Get user
+  description: |
+    Some description of the operation.
+    You can use `markdown` here.
+  operationId: getUserByName
+  security:
+    - api_key: []
+  responses:
+    '200':
+      description: Success
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/User.yaml
+          example:
+            username: user1
+            email: user@example.com
+    '403':
+      description: Forbidden
+    '404':
+      description: User not found
