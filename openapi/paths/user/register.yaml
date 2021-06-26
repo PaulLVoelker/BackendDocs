@@ -6,9 +6,6 @@ post:
     Some description of the operation.
     You can use `markdown` here.
   operationId: register
-  security:
-    - api_key: []
-
   requestBody:
     description: Optional description in *Markdown*
     required: true
@@ -17,14 +14,14 @@ post:
         schema:
           $ref: ../../components/schemas/Register.yaml
         example:
-          username: nils
+          username: user
           password: pass
-          mail: nils@example.com
+          mail: user@example.com
 
   responses:
-    '200':
+    '201':
       description: Success
     '403':
-      description: Forbidden
-    '404':
-      description: User not found
+      description: Register failed mostlikly user already exists
+    '417':
+      description: Payload missing parameters

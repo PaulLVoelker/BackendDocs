@@ -1,14 +1,14 @@
 type: object
 properties:
   username:
-    description: Api access token
+    description: username
     type: string
-    example: tokenstring
+    example: user9311
   password:
-    description: Api access token
+    description: password
     type: string
-    example: tokenstring
+    example: not_secure_password
   mail:
-    description: Api access token
+    description: Mail address
     type: string
-    example: tokenstring
+    example: user@example.com

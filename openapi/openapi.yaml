@@ -53,8 +53,6 @@ externalDocs:
   description: GitHub Repo
   url: 'https://github.com/LLPN-DEV/Backend'
 tags:
-  - name: Echo
-    description: Example echo operations
   - name: User
     description: Operations about user
 servers:

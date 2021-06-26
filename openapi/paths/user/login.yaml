@@ -6,8 +6,6 @@ post:
     Some description of the operation.
     You can use `markdown` here.
   operationId: login
-  security:
-    - api_key: []
 
   requestBody:
     description: Optional description in *Markdown*
@@ -28,8 +26,6 @@ post:
           schema:
             $ref: ../../components/schemas/Login.yaml
           example:
-            token: user1
+            token: jwttoken
     '403':
       description: Forbidden
-    '404':
-      description: User not found
