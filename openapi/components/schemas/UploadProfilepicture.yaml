@@ -1,0 +1,6 @@
+required:
+  - picture
+type: object
+properties:
+  picture:
+    type: file
