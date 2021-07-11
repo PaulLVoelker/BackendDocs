@@ -1,0 +1,173 @@
+{
+  "Activity": {
+    "Favorite Effects": {},
+    "Favorite Hashtags": {
+      "FavoriteHashtagList": null
+    },
+    "Favorite Sounds": {
+      "FavoriteSoundList": null
+    },
+    "Favorite Videos": {
+      "FavoriteVideoList": [
+        {
+          "Date": "2021-04-18 13:35:49",
+          "Link": "https://www.tiktokv.com/share/video/XXX/"
+        }
+      ]
+    },
+    "Follower List": {
+      "FansList": [
+        {
+          "Date": "2021-04-16 13:29:54",
+          "UserName": "XXX"
+        },
+      ]
+    },
+    "Following List": {
+      "Following": [
+        {
+          "Date": "2021-04-16 14:06:51",
+          "UserName": "XXX"
+        },
+      ]
+    },
+    "Hashtag": {},
+    "Like List": {
+      "ItemFavoriteList": [
+          {
+          "Date": "2021-03-18 22:11:09",
+          "VideoLink": "https://www.tiktokv.com/share/video/XXX/"
+        },
+      ]
+    },
+    "Login History": {
+      "LoginHistoryList": [        {
+          "Date": "2021-03-18 22:08:43",
+          "IP": "XX.XXX.XXX.XXX",
+          "DeviceModel": "EML-L29",
+          "DeviceSystem": "Android 10",
+          "NetworkType": "Wi-Fi",
+          "Carrier": "Blau"
+        },
+      ]
+    },
+    "Purchase History": {},
+    "Search History": {
+      "SearchList": [        {
+          "Date": "2021-03-20 16:24:58",
+          "SearchTerm": "XXX"
+        },
+      ]
+    },
+    "Share History": {
+      "ShareHistoryList": [        {
+          "Date": "2021-03-18 22:10:45",
+          "SharedContent": "video",
+          "Link": "https://www.tiktokv.com/share/video/XXX/",
+          "Method": "chat_head"
+        },
+      ]
+    },
+    "Status": {
+      "Resolution": "2031x1080",
+      "AppVersion": "TikTok 16.3.5",
+      "Idfa": "None",
+      "GAid": "2264ccec-d31a-4cb0-9ffb-XXX",
+      "OpenUdid": "07eeb833XXX",
+      "Clientudid": ""
+    },
+    "Video Browsing History": {
+      "VideoList": [        {
+          "Date": "2021-03-18 22:09:17",
+          "VideoLink": "https://www.tiktokv.com/share/video/XXX/"
+        },
+      ]
+    }
+  },
+  "Ads and data": {
+    "Ad Interests": {
+      "AdInterestCategories": ""
+    },
+    "Ads Based On Data Received From Partners": {
+      "DataPartnerList": "",
+      "AdvertiserList": ""
+    },
+    "Usage Data From Third-Party Apps And Websites": {
+      "UsageDataList": [
+        {
+          "TimeStamp": "2021-04-21 15:11:25",
+          "Source": "",
+          "Event": "InstallApp"
+        }
+      ]
+    }
+  },
+  "App Settings": {
+    "Block": {},
+    "Settings": {
+      "SettingsMap": {
+        "Ads Based on Data Received from Partners": "Off",
+        "Allow DownLoad": "Default",
+        "Allow Others to Find Me": "Enabled",
+        "Filter Comments": "Default",
+        "Interests": "",
+        "Personalized Ads": "Disabled",
+        "Private Account": "Disabled",
+        "Video Languages Preferences": "",
+        "Who Can Duet With Me": "Default",
+        "Who Can Post Comments": "Default",
+        "Who Can React to Me": "Default",
+        "Who Can Send Me Message": "Friends",
+        "Who Can View Videos I Liked": "Default"
+      }
+    }
+  },
+  "Comment": {
+    "Comments": {
+      "CommentsList": [
+        {
+          "Date": "2021-04-09 17:50:15",
+          "Comment": "This is a Text!"
+        },
+      ]
+    }
+  },
+  "Direct Messages": {
+    "Chat History": {
+      "ChatHistory": {
+        "Chat History with XXX:": [
+          {
+            "Date": "2021-04-10 11:22:22",
+            "From": "XXX",
+            "Content": "This is a Text!"
+          },
+                  ]
+      }
+    }
+  },
+  "Profile": {
+    "Profile Information": {
+      "ProfileMap": {
+        "PlatformInfo": [
+          "Facebook",
+          "Profile Photo: ",
+          "Name: XXX ",
+          "Description: ",
+          ""
+        ],
+        "bioDescription": "Hey this is a test",
+        "birthDate": "18-Mar-1983",
+        "emailAddress": "None",
+        "likesReceived": "None",
+        "profilePhoto": "https://p16-sign-va.tiktokcdn.com/musically-maliva-obj/XXX~c5_1080x1080.webp?x-expires=XXX\u0026x-signature=XXX%3D",
+        "profileVideo": "None",
+        "telephoneNumber": "XXX",
+        "userName": "XXX"
+      }
+    }
+  },
+  "Video": {
+    "Videos": {}
+  }
+}
+
